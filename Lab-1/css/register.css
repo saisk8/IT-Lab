@@ -37,7 +37,36 @@ form {
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    transition: all .3s ease-in-out;
-}:hover {
-    transform: translate3d(0px, -1px, 0px);
+    margin-left: 32%;
 }
+
+h1 {
+    font-style: italic;
+    color: #373fff;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+}
+
+button {
+    margin-top: 5px;
+    padding: 2px;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    box-shadow: 2px 2px teal;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: yellow;
+}
+  
+button:active {
+    box-shadow: none;
+}
+  

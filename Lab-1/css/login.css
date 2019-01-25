@@ -27,11 +27,8 @@ form {
     padding:50px 0;
     z-index: 5px;
     border-radius: 10px;
-    transition: all .3s ease-in-out;
 }:hover {
     z-index: 0px;
-    transform: translate3d(0px, -1px, 0px);
-    margin-top: -1px;
 }
 input {
     margin-bottom:15px;
