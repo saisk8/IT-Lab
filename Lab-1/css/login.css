@@ -20,14 +20,18 @@ label {
     vertical-align:middle;
 }
 form {
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68);
     display:inline-block;
     border:1px solid black;
     width: 450px;
     padding:50px 0;
-    z-index: 5;
+    z-index: 5px;
     border-radius: 10px;
+    transition: all .3s ease-in-out;
 }:hover {
-    z-index: 0;
+    z-index: 0px;
+    transform: translate3d(0px, -1px, 0px);
+    margin-top: -1px;
 }
 input {
     margin-bottom:15px;
