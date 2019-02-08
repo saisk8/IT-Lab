@@ -33,3 +33,21 @@ form {
 input {
     margin-bottom:15px;
 }
+
+input[type="Submit"]:hover {
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+}
+
+input[type="reset"]:hover {
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+}
+
+input[type="button"]:hover {
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+}
