@@ -9,10 +9,8 @@ const app = express();
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
 
 // http://expressjs.com/en/starter/static-files.html
-app.use(express.static(__dirname + '/views'));
-app.use(express.static(__dirname + '/js'));
-app.use(express.static(__dirname + '/css'));
-app.use(express.static(__dirname + '/fonts'));
+app.use(express.static(__dirname));
+console.log(__dirname + '/fonts');
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get('/', function(request, response) {

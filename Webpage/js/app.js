@@ -14,8 +14,8 @@
       new Route('events', 'events.html'),
       new Route('latest-news', 'latest-news.html'),
       new Route('placements', 'placements.html'),
-      new Route('login', 'login.html'),
-      new Route('register', 'register.html')
+      new Route('login-page', 'login-page.html'),
+      new Route('register-page', 'register-page.html')
     ]);
   }
   init();
