@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="marvel.css" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<h1>Marvel Heroes</h1>
+<Marvel>
+    <Chars>
+        <name>Peter Parker</name> <br />
+        <Hero-name>Spider Man</Hero-name> <br />
+        <Place>Queens, New York</Place> <br />
+    </Chars> 
+    <Chars>
+        <name>Steve Rorgers</name> <br />
+        <Hero-name>Captain America</Hero-name> <br />
+        <Place>Broklyn</Place> <br />
+    </Chars>
+    <Chars>
+        <name>Thor Oddinson</name> <br />
+        <Hero-name>Thor</Hero-name>  <br />
+        <Place>Asgard</Place> <br />
+    </Chars>
+    <Chars>
+        <name>Tony Stark</name> <br />
+        <Hero-name>Iron Man</Hero-name> <br />
+        <Place>Downtown, NYC</Place> <br />
+    </Chars>
+</Marvel>    
+</body>
+</html>

@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  color: crimson;
+}
+Marvel {
+  font-family: Georgia;
+  padding: 20px;
+}
+
+Chars {
+  display: block;
+  margin-bottom: 30px;
+  border: solid black medium;
+  padding: 10px;
+  background-color: azure;
+  width: 50%;
+  position: relative;
+  margin-left: 25%;
+}
+
+name {
+  color: blue;
+}
+
+Hero-name {
+  color: maroon;
+}
+
+Place {
+  color: black;
+}

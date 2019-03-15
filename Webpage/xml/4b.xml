@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="4b.xsl" ?>
+<student-information>
+	<student>
+		<usn>1RE14CS126</usn>
+		<name>Sai Somanath</name>
+		<college>REVA</college>
+		<branch>CSE</branch>
+		<year>2014</year>
+		<email>k.saisomanath@gmail.com</email>
+	</student>
+	<student>
+		<usn>1RE14CS126</usn>
+		<name>Sai Somanath</name>
+		<college>REVA</college>
+		<branch>CSE</branch>
+		<year>2014</year>
+		<email>k.saisomanath@gmail.com</email>
+	</student>
+	<student>
+		<usn>1RE14CS126</usn>
+		<name>Sai Somanath</name>
+		<college>REVA</college>
+		<branch>CSE</branch>
+		<year>2014</year>
+		<email>k.saisomanath@gmail.com</email>
+	</student>	
+</student-information>
+
