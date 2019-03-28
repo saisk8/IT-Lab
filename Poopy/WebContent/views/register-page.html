@@ -1,0 +1,154 @@
+<!-- Start Banner Area -->
+<section class="banner-area relative">
+  <div class="container">
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="about-content col-lg-12">
+        <h1 class="text-white">
+          Register
+        </h1>
+        <p>
+          Registration for all the univeristy personnel
+        </p>
+        <div class="link-nav">
+          <span class="box">
+            <a href="#home">Home </a>
+            <i class="lnr lnr-arrow-right"></i>
+            <a href="#register-page">Register</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rocket-img">
+    <img src="img/rocket.png" alt="" />
+  </div>
+</section>
+<!-- End Banner Area -->
+
+<section class="feature-area align-items-center">
+  <div class="container">
+    <div class="feature-inner row">
+      <div class="col-md-6 offset-md-3">
+        <div class="feature-item">
+          <form id="form" action="servlet/Register" method="POST">
+            <div class="mt-10">
+                <input
+                  type="text"
+                  name="fn"
+                  id="fn"
+                  placeholder="First Name"
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'First Name'"
+                  required
+                  class="single-input-primary"
+                />
+                <div class="mt-10">
+                    <input
+                      type="text"
+                      name="ln"
+                      id="ln"
+                      placeholder="Last Name"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Last Name'"
+                      required
+                      class="single-input-primary"
+                    />
+            <div class="mt-10">
+              <input
+                type="text"
+                name="un"
+                id="un"
+                placeholder="Username"
+                onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Username'"
+                required
+                class="single-input-primary"
+              />
+              <div class="mt-10">
+                <input
+                  type="password"
+                  name="ps"
+                  id="ps"
+                  placeholder="Password"
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Password'"
+                  required
+                  class="single-input-primary"
+                />
+              </div>
+              <div class="mt-10">
+                <input
+                  type="password"
+                  name="cn"
+                  id="cn"
+                  placeholder="Confirm"
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Confirm'"
+                  required
+                  class="single-input-primary"
+                />
+              </div>
+              <div class="mt-10">
+                <input
+                  type="date"
+                  name="date"
+                  id="date"
+                  placeholder="Date"
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Date'"
+                  required
+                  class="single-input-primary"
+                />
+              </div>
+              <div class="mt-10">
+                <input
+                  type="text"
+                  name="aa"
+                  id="aa"
+                  placeholder="Aadhar"
+                  onkeypress="return isNumberKey(event)"
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Aadhar'"
+                  required
+                  class="single-input-primary"
+                />
+              </div>
+              <div class="mt-10">
+                <input
+                  type="email"
+                  name="re"
+                  id="re"
+                  placeholder="Email"
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Email'"
+                  required
+                  class="single-input-primary"
+                />
+              </div>
+              <div class="mt-10">
+                <input
+                  type="text"
+                  name="mo"
+                  id="mo"
+                  placeholder="Mobile"
+                  onkeypress="return isNumberKey(event)"
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Mobile'"
+                  required
+                  class="single-input-primary"
+                />
+              </div>
+            </div>
+            <div class="button-group-area mt-10">
+              <button type="button" class="genric-btn primary-border circle arrow"
+              onclick="validate(null);">Submit</a
+              >
+            </div>
+            <p id="error-text"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Feature Area -->
